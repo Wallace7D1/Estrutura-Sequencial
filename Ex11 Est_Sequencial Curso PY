@@ -1,0 +1,19 @@
+'''Faça um programa que peça 2 números inteiros e um número
+    real.
+    Calcule e mostre:
+        a. O produto do dobro do primeiro com metade do
+        segundo;
+        b. A soma do triplo do primeiro com o terceiro;
+        c. O terceiro elevado ao cubo.'''
+
+
+
+int1 = int(input("Digite o primeiro numero inteiro: "))
+int2 = int(input("Digite o segundo numero inteiro: "))
+real3 = float(input("Digite o terceiro  numero real: "))
+soma1 = int1 * 2 * (int2 / 2)
+print(f"O produto do dobro do primeiro com metade do segundo é:{soma1}")
+soma2 = (3 * int1) + real3
+print(f"A soma do triplo do primeiro com o terceiro é:{soma2}")
+soma3 = real3 ** 3
+print(f"O terceiro elevado ao cubo é:{soma3}")
