@@ -1,0 +1,26 @@
+#aqui solicitei uma chave
+'''cliente = {"nome": "wallace", "idade": 21,"cidade": "tapes"}
+print(cliente["cidade"])'''
+
+
+#aqui dados foram adicionados
+'''cliente = {"nome": "wallace", "idade": 21,"cidade": "tapes"}
+cliente.update({"bairro": "wolf"})
+print(cliente)'''
+
+#aqui eu adicionei um novo elemento a  chave (sem substituir o existente)
+'''cliente = {"telefone": 2222}
+cliente["telefone"] = [2222, 3333]
+print(cliente)'''
+
+#aqui eu deletei uma chave
+'''cliente = {"nome": "wallace", "idade": 21,"cidade": "tapes"}
+del cliente["nome"]
+print(cliente)'''
+
+
+#aqui eu removi uma chave do dict, porem não exclui, salvei em uma variavel
+'''cliente = {"nome": "wallace", "idade": 21,"cidade": "tapes"}
+cidade = cliente.pop("cidade")
+print(cliente)
+print(cidade)'''
