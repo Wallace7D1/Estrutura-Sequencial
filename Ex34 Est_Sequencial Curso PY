@@ -1,0 +1,9 @@
+'''Dado o dicionário {"Nome": "Ana", "Idade": 25, "Profissão":
+"Engenheira", "País": "Brasil"}, obtenha o número de pares
+de chave-valor presentes.'''
+
+
+
+person_dict = {"Nome": "Ana", "Idade": 25, "Profissão": "Engenheira", "País": "Brasil"}
+keys_pairs = len(person_dict)
+print(keys_pairs)
